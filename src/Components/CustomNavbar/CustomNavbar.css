@@ -1,12 +1,16 @@
 /* navbar */
+
 nav.navbar, .navbar-default {
-  background-color: #6fce77 !important;
+  background-color: green !important;
+  padding: 8px;
+  font-size: 16px;
 }
 
 .navbar-default {
     background-image: none;
     background-color: #F8F8F8;
     border-color: #E7E7E7;
+    font-weight: bold;
 }
 /* Title */
 .navbar-default .navbar-brand {

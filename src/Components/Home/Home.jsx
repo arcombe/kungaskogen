@@ -8,7 +8,9 @@ export default class Home extends Component {
   render() {
     return (
       <Grid>
-          <Image src="images/kungaskogen_sid1.jpg" responsive/>
+        <Row>
+          <Image src="images/wwwkungaskogen_ny_snicksnack.jpg" responsive className="intro"/>
+        </Row>
       </Grid>
     )
   }

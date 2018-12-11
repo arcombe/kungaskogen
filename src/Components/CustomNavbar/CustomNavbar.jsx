@@ -10,17 +10,20 @@ export default class CustomNavbar extends Component {
       <Navbar default collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">Kungaskogen</Link>
+            <Link to="/">Välkommen till Snick & Snack och Kungaskogen </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
             <NavDropdown eventKey={1} title="OM" id="basic-nav-dropdown">
-              <MenuItem eventKey={1.1}>VÅR HISTORIA</MenuItem>
-              <MenuItem eventKey={1.2}>BÖCKER</MenuItem>
-              <MenuItem eventKey={1.3} componentClass={Link} href="/karaktarerna" to="/karaktarerna">KARAKTÄRERNA</MenuItem>
-              <MenuItem eventKey={1.4}>ILKA</MenuItem>
+              <MenuItem eventKey={1.1}>Vår Historia</MenuItem>
+              <MenuItem eventKey={1.2} componentClass={Link} href="/karaktarerna" to="/karaktarerna">Karaktärer</MenuItem>
+              <MenuItem eventKey={1.3}>Böcker</MenuItem>
+              <MenuItem eventKey={1.4}>Förlag</MenuItem>
+            <MenuItem eventKey={1.5}>Återförsäljare</MenuItem>
+              <MenuItem eventKey={1.6}>Upphovspersoner</MenuItem>
+              <MenuItem eventKey={1.7}>Licenser</MenuItem>
             </NavDropdown>
             <NavDropdown eventKey={2} title="PRODUKTER" id="basic-nav-dropdown">
               <MenuItem eventKey={2.1}>Action</MenuItem>
@@ -34,13 +37,13 @@ export default class CustomNavbar extends Component {
               <MenuItem eventKey={3.3}>Something else here</MenuItem>
               <MenuItem eventKey={3.4}>Separated link</MenuItem>
             </NavDropdown>
-            <NavDropdown eventKey={4} title="TEATHER" id="basic-nav-dropdown">
+            <NavDropdown eventKey={4} title="TEATER" id="basic-nav-dropdown">
               <MenuItem eventKey={4.1}>Action</MenuItem>
               <MenuItem eventKey={4.2}>Another action</MenuItem>
               <MenuItem eventKey={4.3}>Something else here</MenuItem>
               <MenuItem eventKey={4.4}>Separated link</MenuItem>
             </NavDropdown>
-            <NavItem eventKey={5} componentClass={Link} href="/" to="/">
+            <NavItem eventKey={5} href="http://wasaplay.se/access/logform.php" >
               ACCESS
             </NavItem>
             <NavDropdown eventKey={6} title="ÖVRIGT" id="basic-nav-dropdown">

@@ -1,3 +1,20 @@
 body{
   padding-top: 70px;
 }
+
+.background-image-friends {
+  height: 200px;
+  width: auto;
+}
+
+.show-grid {
+  background-color: #c3ffb2;
+}
+
+.profile-pic {
+  width: 300px;
+}
+
+.person-wrapper {
+  padding: 50px;
+}
