@@ -10,7 +10,7 @@ export default class CustomNavbar extends Component {
       <Navbar default collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">Välkommen till Snick & Snack och Kungaskogen </Link>
+            <Link to="/" > Välkommen till Snick & Snack och Kungaskogen </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -21,7 +21,7 @@ export default class CustomNavbar extends Component {
               <MenuItem eventKey={1.2} componentClass={Link} href="/karaktarerna" to="/karaktarerna">Karaktärer</MenuItem>
               <MenuItem eventKey={1.3}>Böcker</MenuItem>
               <MenuItem eventKey={1.4}>Förlag</MenuItem>
-            <MenuItem eventKey={1.5}>Återförsäljare</MenuItem>
+              <MenuItem eventKey={1.5}>Återförsäljare</MenuItem>
               <MenuItem eventKey={1.6}>Upphovspersoner</MenuItem>
               <MenuItem eventKey={1.7}>Licenser</MenuItem>
             </NavDropdown>
