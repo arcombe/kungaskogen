@@ -16,10 +16,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -28,9 +24,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "author": "jane-doe",
-  "engines": {
-    "node": "10.13.0"
-  }
+  ]
 }
