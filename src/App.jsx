@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
-import Home from '../Home/Home';
-import CustomNavbar from '../CustomNavbar/CustomNavbar';
-import Karaktarerna from '../Karaktarerna/Karaktarerna';
-import Upphovspersoner from '../Upphovspersoner/Upphovspersoner';
-import Bocker from '../Bocker/Bocker';
-import Footer from '../Footer/Footer';
-import Licens from '../Licens/Licens';
-import Forlag from '../Forlag/Forlag';
-import Historia from '../Historia/Historia';
-import Aterforsaljare from "../Aterforsaljare/Aterforsaljare";
-import Snabbfakta from "../Snabbfakta/Snabbfakta";
-import Medverkande from "../Medverkande/Medverkande";
+import Home from './Components/Home/Home';
+import CustomNavbar from './Components/CustomNavbar/CustomNavbar';
+import Karaktarerna from './Components/Karaktarerna/Karaktarerna';
+import Upphovspersoner from './Components/Upphovspersoner/Upphovspersoner';
+import Bocker from './Components/Bocker/Bocker';
+import Footer from './Components/Footer/Footer';
+import Licens from './Components/Licens/Licens';
+import Forlag from './Components/Forlag/Forlag';
+import Historia from './Components/Historia/Historia';
+import Aterforsaljare from './Components/Aterforsaljare/Aterforsaljare';
+import Snabbfakta from './Components/Snabbfakta/Snabbfakta';
+import Medverkande from './Components/Medverkande/Medverkande';
 
 class App extends Component {
   render() {
