@@ -2,8 +2,16 @@
 
 nav.navbar, .navbar-default {
   background-color: green !important;
-  padding: 8px;
-  font-size: 16px;
+  border-color: green !important;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  padding: auto;
+  margin-left: 0;
 }
 
 .navbar-default {
@@ -59,6 +67,9 @@ nav.navbar, .navbar-default {
 /* Mobile version */
 .navbar-default .navbar-toggle {
     border-color: #DDD;
+    position: absolute;
+    right: -50%;
+
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {

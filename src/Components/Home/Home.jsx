@@ -9,7 +9,9 @@ export default class Home extends Component {
     return (
       <Grid>
         <Row>
-          <Image src="images/wwwkungaskogen_ny_snicksnack.jpg" responsive className="intro"/>
+          <Col>
+            <Image src="images/wwwkungaskogen_ny_snicksnack_emblem_2.jpg" responsive className="intro"/>
+          </Col>
         </Row>
       </Grid>
     )

@@ -1,0 +1,13 @@
+.footer-content {
+  background-color: green;
+  padding: 15px;
+}
+
+.footer-logo{
+  padding-top: 1em;
+}
+
+.footer-info {
+  text-align: left;
+  color: white;
+}
