@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kungaskogen/precache-manifest.5ec5dbf2e005f3fc5f33e2682707227a.js"
+  "/kungaskogen/precache-manifest.71c91eae37f505ebddd6a90cbb222e3b.js"
 );
 
 workbox.clientsClaim();
