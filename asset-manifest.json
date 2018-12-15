@@ -1,13 +1,13 @@
 {
-  "main.css": "/arcombe/kungaskogen/static/css/main.3422ec5f.chunk.css",
-  "main.js": "/arcombe/kungaskogen/static/js/main.9cd2e58a.chunk.js",
-  "main.js.map": "/arcombe/kungaskogen/static/js/main.9cd2e58a.chunk.js.map",
-  "static/js/1.554b7fcb.chunk.js": "/arcombe/kungaskogen/static/js/1.554b7fcb.chunk.js",
-  "static/js/1.554b7fcb.chunk.js.map": "/arcombe/kungaskogen/static/js/1.554b7fcb.chunk.js.map",
-  "runtime~main.js": "/arcombe/kungaskogen/static/js/runtime~main.bed16a7b.js",
-  "runtime~main.js.map": "/arcombe/kungaskogen/static/js/runtime~main.bed16a7b.js.map",
-  "static/css/main.3422ec5f.chunk.css.map": "/arcombe/kungaskogen/static/css/main.3422ec5f.chunk.css.map",
-  "index.html": "/arcombe/kungaskogen/index.html",
-  "precache-manifest.ee7064d83b453ec7fda1be057f9df355.js": "/arcombe/kungaskogen/precache-manifest.ee7064d83b453ec7fda1be057f9df355.js",
-  "service-worker.js": "/arcombe/kungaskogen/service-worker.js"
+  "main.css": "/kungaskogen/static/css/main.3422ec5f.chunk.css",
+  "main.js": "/kungaskogen/static/js/main.a0b7e500.chunk.js",
+  "main.js.map": "/kungaskogen/static/js/main.a0b7e500.chunk.js.map",
+  "static/js/1.836b3c70.chunk.js": "/kungaskogen/static/js/1.836b3c70.chunk.js",
+  "static/js/1.836b3c70.chunk.js.map": "/kungaskogen/static/js/1.836b3c70.chunk.js.map",
+  "runtime~main.js": "/kungaskogen/static/js/runtime~main.c481e218.js",
+  "runtime~main.js.map": "/kungaskogen/static/js/runtime~main.c481e218.js.map",
+  "static/css/main.3422ec5f.chunk.css.map": "/kungaskogen/static/css/main.3422ec5f.chunk.css.map",
+  "index.html": "/kungaskogen/index.html",
+  "precache-manifest.233471184bbf9cdec814ec6d79f8e61c.js": "/kungaskogen/precache-manifest.233471184bbf9cdec814ec6d79f8e61c.js",
+  "service-worker.js": "/kungaskogen/service-worker.js"
 }

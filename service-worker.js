@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/arcombe/kungaskogen/precache-manifest.ee7064d83b453ec7fda1be057f9df355.js"
+  "/kungaskogen/precache-manifest.233471184bbf9cdec814ec6d79f8e61c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/arcombe/kungaskogen/index.html", {
+workbox.routing.registerNavigationRoute("/kungaskogen/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
