@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import Home from './Components/Home/Home';
 import CustomNavbar from './Components/CustomNavbar/CustomNavbar';

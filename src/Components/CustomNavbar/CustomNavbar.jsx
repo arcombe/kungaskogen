@@ -14,7 +14,7 @@ export default class CustomNavbar extends Component {
               <Navbar.Header>
                 <Navbar.Brand>
                   <Link to="/" >
-                    <Image src="images/welcome/valkommentillkungaskogen_enrad_flagga.png" responsive className="logo"/>
+                    <Image src="images/Welcome/valkommentillkungaskogen_enrad_flagga.png" responsive className="logo"/>
                   </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
@@ -25,7 +25,7 @@ export default class CustomNavbar extends Component {
                 <Nav pullRight>
                   <NavDropdown eventKey={1} title="OM" id="basic-nav-dropdown">
                     <MenuItem eventKey={1.1} componentClass={Link} href="/historia" to="/historia">Vår Historia</MenuItem>
-                    <MenuItem eventKey={1.2} componentClass={Link} href="/snabbfakta" to="/snabbfakta">Snavvfakta</MenuItem>
+                    <MenuItem eventKey={1.2} componentClass={Link} href="/snabbfakta" to="/snabbfakta">Snabbfakta</MenuItem>
                     <MenuItem eventKey={1.3} componentClass={Link} href="/karaktarerna" to="/karaktarerna">Karaktärer</MenuItem>
                     <MenuItem eventKey={1.4} componentClass={Link} href="/bocker" to="/bocker">Böcker</MenuItem>
                     <MenuItem eventKey={1.5} componentClass={Link} href="/forlag" to="/forlag">Förlag</MenuItem>
@@ -41,7 +41,7 @@ export default class CustomNavbar extends Component {
                     <MenuItem eventKey={2.4}>Separated link</MenuItem>
                   </NavDropdown>
                   <NavDropdown eventKey={3} title="MUSIK" id="basic-nav-dropdown">
-                    <MenuItem eventKey={3.1}>Action</MenuItem>
+                    <MenuItem eventKey={3.1}>Bara Test</MenuItem>
                     <MenuItem eventKey={3.2}>Another action</MenuItem>
                     <MenuItem eventKey={3.3}>Something else here</MenuItem>
                     <MenuItem eventKey={3.4}>Separated link</MenuItem>
