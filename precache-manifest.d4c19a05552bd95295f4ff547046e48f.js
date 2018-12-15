@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/kungaskogen/static/css/main.3422ec5f.chunk.css"
   },
   {
-    "revision": "0219aba834981b201f5b8b26c3c24abc",
+    "revision": "648a326d18233670661ab7a137f0b78d",
     "url": "/kungaskogen/index.html"
   }
 ];
