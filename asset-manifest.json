@@ -1,13 +1,13 @@
 {
-  "main.css": "/kungaskogen/static/css/main.8a872b66.chunk.css",
-  "main.js": "/kungaskogen/static/js/main.48d5d733.chunk.js",
-  "main.js.map": "/kungaskogen/static/js/main.48d5d733.chunk.js.map",
-  "static/js/1.1a667c95.chunk.js": "/kungaskogen/static/js/1.1a667c95.chunk.js",
-  "static/js/1.1a667c95.chunk.js.map": "/kungaskogen/static/js/1.1a667c95.chunk.js.map",
+  "main.css": "/kungaskogen/static/css/main.61773801.chunk.css",
+  "main.js": "/kungaskogen/static/js/main.3334084a.chunk.js",
+  "main.js.map": "/kungaskogen/static/js/main.3334084a.chunk.js.map",
+  "static/js/1.36077ca9.chunk.js": "/kungaskogen/static/js/1.36077ca9.chunk.js",
+  "static/js/1.36077ca9.chunk.js.map": "/kungaskogen/static/js/1.36077ca9.chunk.js.map",
   "runtime~main.js": "/kungaskogen/static/js/runtime~main.c481e218.js",
   "runtime~main.js.map": "/kungaskogen/static/js/runtime~main.c481e218.js.map",
-  "static/css/main.8a872b66.chunk.css.map": "/kungaskogen/static/css/main.8a872b66.chunk.css.map",
+  "static/css/main.61773801.chunk.css.map": "/kungaskogen/static/css/main.61773801.chunk.css.map",
   "index.html": "/kungaskogen/index.html",
-  "precache-manifest.01593961aac5864d11aea1f27cac6101.js": "/kungaskogen/precache-manifest.01593961aac5864d11aea1f27cac6101.js",
+  "precache-manifest.dfc86f8a3da56da89e939aa1708cb939.js": "/kungaskogen/precache-manifest.dfc86f8a3da56da89e939aa1708cb939.js",
   "service-worker.js": "/kungaskogen/service-worker.js"
 }
