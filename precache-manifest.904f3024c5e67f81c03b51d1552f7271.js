@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/kungaskogen/static/js/runtime~main.c481e218.js"
   },
   {
-    "revision": "4d8422d6668920a157d8",
-    "url": "/kungaskogen/static/js/main.4d8422d6.chunk.js"
+    "revision": "1820bcb105a57d221d1e",
+    "url": "/kungaskogen/static/js/main.1820bcb1.chunk.js"
   },
   {
     "revision": "836b3c70e5e08fe4603e",
     "url": "/kungaskogen/static/js/1.836b3c70.chunk.js"
   },
   {
-    "revision": "4d8422d6668920a157d8",
-    "url": "/kungaskogen/static/css/main.3422ec5f.chunk.css"
+    "revision": "1820bcb105a57d221d1e",
+    "url": "/kungaskogen/static/css/main.55873a87.chunk.css"
   },
   {
-    "revision": "a52a3790b378767e1bd692f42d3754ce",
+    "revision": "62d7f120c267c96ddb3ef016920b863e",
     "url": "/kungaskogen/index.html"
   }
 ];
