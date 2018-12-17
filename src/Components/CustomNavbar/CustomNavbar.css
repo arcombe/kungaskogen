@@ -9,9 +9,11 @@ nav.navbar, .navbar-default {
   font-size: 15px;
 }
 
+
 .navbar-brand {
   padding: auto;
   margin-left: 0;
+  width: 320px;
 }
 
 .navbar-default {
@@ -67,8 +69,6 @@ nav.navbar, .navbar-default {
 /* Mobile version */
 .navbar-default .navbar-toggle {
     border-color: #DDD;
-    position: absolute;
-    right: -50%;
 
 }
 .navbar-default .navbar-toggle:hover,
@@ -78,6 +78,7 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
+
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777;

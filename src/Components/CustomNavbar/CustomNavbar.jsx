@@ -8,9 +8,6 @@ export default class CustomNavbar extends Component {
   render() {
     return (
       <Navbar default collapseOnSelect fixedTop>
-        <Grid>
-          <Row>
-            <Col md="3" sm="3" xs="8">
               <Navbar.Header>
                 <Navbar.Brand>
                   <Link to="/" >
@@ -19,8 +16,6 @@ export default class CustomNavbar extends Component {
                 </Navbar.Brand>
                 <Navbar.Toggle />
               </Navbar.Header>
-            </Col>
-            <Col md ="9" sm="9" xs="4">
               <Navbar.Collapse >
                 <Nav pullRight>
                   <NavDropdown eventKey={1} title="OM" id="basic-nav-dropdown">
@@ -69,9 +64,6 @@ export default class CustomNavbar extends Component {
                   </NavDropdown>
                 </Nav>
               </Navbar.Collapse>
-            </Col>
-          </Row>
-        </Grid>
       </Navbar>
     )
   }
