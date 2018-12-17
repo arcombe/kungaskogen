@@ -16,10 +16,14 @@ export default class Footer extends Component {
             <p> 040 - 120012 </p>
           </Col>
           <Col md="1" className="footer-info">
-            <h4> Kontakt </h4>
+            <Link to="/kontakt" className="footer-link">
+              <h4> Kontakt </h4>
+            </Link>
           </Col>
           <Col md="1" className="footer-info">
-            <h4> Integritet </h4>
+            <Link to="/integritet" className="footer-link">
+              <h4> Integritet </h4>
+            </Link>
           </Col>
           <Col md="1" className="footer-info">
             <h4> Press </h4>

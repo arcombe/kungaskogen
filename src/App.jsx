@@ -15,6 +15,8 @@ import Aterforsaljare from './Components/Aterforsaljare/Aterforsaljare';
 import Snabbfakta from './Components/Snabbfakta/Snabbfakta';
 import Medverkande from './Components/Medverkande/Medverkande';
 import AltNavbar from './Components/AltNavbar/AltNavbar';
+import Kontakt from './Components/Kontakt/Kontakt';
+import Integritet from './Components/Integritet/Integritet';
 
 class App extends Component {
   render() {
@@ -32,6 +34,8 @@ class App extends Component {
           <Route path="/aterforsaljare" component={Aterforsaljare} />
           <Route path="/snabbfakta" component={Snabbfakta} />
           <Route path="/medverkande" component={Medverkande} />
+          <Route path="/kontakt" component={Kontakt} />
+          <Route path="/integritet" component={Integritet} />
 
           <Footer />
         </div>

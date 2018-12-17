@@ -16,7 +16,7 @@ export default class CustomNavbar extends Component {
                 </Navbar.Brand>
                 <Navbar.Toggle />
               </Navbar.Header>
-              <Navbar.Collapse >
+              <Navbar.Collapse className="dropdown-x">
                 <Nav pullRight>
                   <NavDropdown eventKey={1} title="OM" id="dropdown mega-dropdown">
                     <MenuItem eventKey={1.1} componentClass={Link} href="/historia" to="/historia">Vår Historia</MenuItem>

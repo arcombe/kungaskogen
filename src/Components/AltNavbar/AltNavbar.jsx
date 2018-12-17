@@ -7,95 +7,169 @@ export default class AltNavbar extends Component {
 
   render() {
     return (
-<div class="container">
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">MegaMenu</a>
-    </div>
 
+      <nav class="navbar navbar-default navbar-static">
+          <div class="navbar-header">
+      		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+      			<span class="sr-only">Toggle navigation</span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      		</button>
 
-    <div class="collapse navbar-collapse js-navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
-          <ul class="dropdown-menu mega-dropdown-menu row">
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">New in Stores</li>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <h4><small>Summer dress floral prints</small></h4>
-                      <button class="btn btn-primary" type="button">49,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                    <div class="item">
-                      <h4><small>Gold sandals with shiny touch</small></h4>
-                      <button class="btn btn-primary" type="button">9,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                    <div class="item">
-                      <h4><small>Denin jacket stamped</small></h4>
-                      <button class="btn btn-primary" type="button">49,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                  </div>
-                </div>
-                <li class="divider"></li>
-                <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-              </ul>
+      	</div>
+
+      	<div class="collapse navbar-collapse js-navbar-collapse">
+      		<ul class="nav navbar-nav">
+            <li class="dropdown dropdown-large">
+      				<a href="#">Some link</a>
             </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Dresses</li>
-                <li><a href="#">Unique Features</a></li>
-                <li><a href="#">Image Responsive</a></li>
-                <li><a href="#">Auto Carousel</a></li>
-                <li><a href="#">Newsletter Form</a></li>
-                <li><a href="#">Four columns</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Tops</li>
-                <li><a href="#">Good Typography</a></li>
-              </ul>
-            </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Jackets</li>
-                <li><a href="#">Easy to customize</a></li>
-                <li><a href="#">Glyphicons</a></li>
-                <li><a href="#">Pull Right Elements</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Pants</li>
-                <li><a href="#">Coloured Headers</a></li>
-                <li><a href="#">Primary Buttons & Default</a></li>
-                <li><a href="#">Calls to action</a></li>
-              </ul>
-            </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Accessories</li>
-                <li><a href="#">Default Navbar</a></li>
-                <li><a href="#">Lovely Fonts</a></li>
-                <li><a href="#">Responsive Dropdown </a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Newsletter</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
+      			<li class="dropdown dropdown-large">
+      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+
+      				<ul class="dropdown-menu dropdown-menu-large row">
+      					<li class="col-sm-6">
+      						<ul>
+      							<li class="dropdown-header">Sword of Truth</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+                    <li class="divider"></li>
+      						</ul>
+      					</li>
+      					<li class="col-sm-6">
+      						<ul>
+      							<li class="dropdown-header">Panda</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li class="divider"></li>
+      							<li class="dropdown-header">Button dropdowns</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      						</ul>
+      					</li>
 
 
+      				</ul>
 
-    )
+      			</li>
+            <li class="dropdown dropdown-large">
+      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+
+      				<ul class="dropdown-menu dropdown-menu-large row">
+      					<li class="col-sm-6">
+      						<ul>
+      							<li class="dropdown-header">Sword of Truths</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Theme/Character</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+
+      						</ul>
+      					</li>
+      					<li class="col-sm-6">
+      						<ul>
+      							<li class="dropdown-header">by brand</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li class="divider"></li>
+      						</ul>
+      					</li>
+      				</ul>
+      			</li>
+            <li class="dropdown dropdown-large">
+      				<a href="#">Some link</a>
+            </li>
+            <li class="dropdown dropdown-large">
+      				<a href="#">Some link</a>
+            </li>
+            <li class="dropdown dropdown-large">
+      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+      				<ul class="dropdown-menu dropdown-menu-large row">
+      					<li class="col-sm-3">
+      						<ul>
+      							<li class="dropdown-header">Sword of Truths</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Theme/Character</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      						</ul>
+      					</li>
+      					<li class="col-sm-3">
+      						<ul>
+      							<li class="dropdown-header">by brand</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li class="divider"></li>
+      						</ul>
+      					</li>
+      <li class="col-sm-3">
+      						<ul>
+      							<li class="dropdown-header">Sword of Truths</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Theme/Character</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+
+      						</ul>
+      					</li>
+      					<li class="col-sm-3">
+      						<ul>
+      							<li class="dropdown-header">by brand</li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li><a href="#">Example</a></li>
+      							<li class="divider"></li>
+      						</ul>
+      					</li>
+      				</ul>
+      			</li>
+      		</ul>
+      	</div>
+      </nav>
+
+)
   }
 }

@@ -6,9 +6,9 @@ nav.navbar, .navbar-default {
   padding-top: 15px;
   padding-left: 15px;
   padding-bottom: 15px;
+  padding-right: 15px;
   font-size: 15px;
 }
-
 
 .navbar-brand {
   margin-left: 10px;
@@ -26,7 +26,7 @@ nav.navbar, .navbar-default {
     border-color: #E7E7E7;
     font-weight: bold;
 }
-/* Title */
+
 .navbar-default .navbar-brand {
     color: white;
 }
@@ -34,7 +34,7 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-brand:focus {
     color: white;
 }
-/* Link */
+
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
@@ -54,7 +54,7 @@ nav.navbar, .navbar-default {
     color: white;
     background-color: #D5D5D5;
 }
-/* Caret */
+
 .navbar-default .navbar-nav > .dropdown > a .caret {
     border-top-color: #777;
     border-bottom-color: #777;
@@ -70,7 +70,7 @@ nav.navbar, .navbar-default {
     border-top-color: #555;
     border-bottom-color: #555;
 }
-/* Mobile version */
+
 .navbar-default .navbar-toggle {
     border-color: #DDD;
 
