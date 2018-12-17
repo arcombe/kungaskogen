@@ -14,6 +14,7 @@ import Historia from './Components/Historia/Historia';
 import Aterforsaljare from './Components/Aterforsaljare/Aterforsaljare';
 import Snabbfakta from './Components/Snabbfakta/Snabbfakta';
 import Medverkande from './Components/Medverkande/Medverkande';
+import AltNavbar from './Components/AltNavbar/AltNavbar';
 
 class App extends Component {
   render() {

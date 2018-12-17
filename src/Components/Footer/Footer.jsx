@@ -9,23 +9,29 @@ export default class Footer extends Component {
     return (
       <Grid>
         <Row className="footer-content">
-          <Col md="2" className="footer-info">
-            <h4> Kontakt </h4>
-            <p> Förlagshuset Wasa </p>
-            <p> Box </p>
-          </Col>
-          <Col md="2" className="footer-info">
+
+          <Col md="1" className="footer-info kundservice">
             <h4> Kundservice </h4>
             <p> idea@ilka.se </p>
             <p> 040 - 120012 </p>
           </Col>
-          <Col md="2" className="footer-info">
-            <h4> Integritetspolicy </h4>
-            <p> idea@ilka.se </p>
-            <p> 040 - 120012 </p>
+          <Col md="1" className="footer-info">
+            <h4> Kontakt </h4>
           </Col>
-          <Col md="3" mdOffset="3" className="footer-logo" >
-            <Image src="images/forlagshusetwasa_krona.png" responsive className="loga-wasa"/>
+          <Col md="1" className="footer-info">
+            <h4> Integritet </h4>
+          </Col>
+          <Col md="1" className="footer-info">
+            <h4> Press </h4>
+          </Col>
+          <Col md="1" className="footer-info">
+            <h4> Laungage </h4>
+          </Col>
+          <Col md="2" mdOffset="3" className="footer-logo" >
+            <Image src="images/forlagshusetwasa_krona.png"  className="loga-wasa"/>
+          </Col>
+          <Col md="1"  className="footer-logo" >
+            <Image src="images/ilkaloggavit.png"  className="loga-ilka"/>
           </Col>
         </Row>
       </Grid>

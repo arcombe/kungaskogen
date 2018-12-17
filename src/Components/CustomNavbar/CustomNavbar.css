@@ -11,9 +11,13 @@ nav.navbar, .navbar-default {
 
 
 .navbar-brand {
-  padding: auto;
-  margin-left: 0;
-  width: 320px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 270px;
 }
 
 .navbar-default {
