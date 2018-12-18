@@ -8,168 +8,57 @@ export default class AltNavbar extends Component {
   render() {
     return (
 
-      <nav class="navbar navbar-default navbar-static">
-          <div class="navbar-header">
-      		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-      			<span class="sr-only">Toggle navigation</span>
-      			<span class="icon-bar"></span>
-      			<span class="icon-bar"></span>
-      			<span class="icon-bar"></span>
-      		</button>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+          <div className="container navbar-container">
+            <div className="navbar-header">
 
-      	</div>
+              <Link to="/" >
+                <Image src="images/Welcome/flagga_kungaskogen.png" classNameName="logo"/>
+              </Link>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
 
-      	<div class="collapse navbar-collapse js-navbar-collapse">
-      		<ul class="nav navbar-nav">
-            <li class="dropdown dropdown-large">
-      				<a href="#">Some link</a>
-            </li>
-      			<li class="dropdown dropdown-large">
-      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            </div>
 
-      				<ul class="dropdown-menu dropdown-menu-large row">
-      					<li class="col-sm-6">
-      						<ul>
-      							<li class="dropdown-header">Sword of Truth</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-                    <li class="divider"></li>
-      						</ul>
-      					</li>
-      					<li class="col-sm-6">
-      						<ul>
-      							<li class="dropdown-header">Panda</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li class="divider"></li>
-      							<li class="dropdown-header">Button dropdowns</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      						</ul>
-      					</li>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav mr-auto navbar-right">
 
 
-      				</ul>
+                <li className="nav-item dropdown">
 
-      			</li>
-            <li class="dropdown dropdown-large">
-      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Om
+                  </a>
 
-      				<ul class="dropdown-menu dropdown-menu-large row">
-      					<li class="col-sm-6">
-      						<ul>
-      							<li class="dropdown-header">Sword of Truths</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Theme/Character</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
+                  <div className="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                    <div className="row">
+                      <div className="col-md-3">
+                        <h3>Om</h3>
+                        <Link to="/historia">Vår Historia </Link>
+                      </div>
+                      <div className="col-md-3">
+                        <h3>något annat</h3>
+                        <Link to="/historia">Vår Historia </Link>
+                      </div>
+                      <div className="col-md-3">
+                        <h3>fler annat</h3>
+                        <Link to="/historia">Vår Historia </Link>
+                      </div>
+                      <div className="col-md-3">
+                        <h3>slut annat</h3>
+                        <Link to="/historia">Vår Historia </Link>
+                      </div>
+                    </div>
+                  </div>
+                </li>
 
-      						</ul>
-      					</li>
-      					<li class="col-sm-6">
-      						<ul>
-      							<li class="dropdown-header">by brand</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li class="divider"></li>
-      						</ul>
-      					</li>
-      				</ul>
-      			</li>
-            <li class="dropdown dropdown-large">
-      				<a href="#">Some link</a>
-            </li>
-            <li class="dropdown dropdown-large">
-      				<a href="#">Some link</a>
-            </li>
-            <li class="dropdown dropdown-large">
-      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-      				<ul class="dropdown-menu dropdown-menu-large row">
-      					<li class="col-sm-3">
-      						<ul>
-      							<li class="dropdown-header">Sword of Truths</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Theme/Character</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      						</ul>
-      					</li>
-      					<li class="col-sm-3">
-      						<ul>
-      							<li class="dropdown-header">by brand</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li class="divider"></li>
-      						</ul>
-      					</li>
-      <li class="col-sm-3">
-      						<ul>
-      							<li class="dropdown-header">Sword of Truths</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Theme/Character</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
 
-      						</ul>
-      					</li>
-      					<li class="col-sm-3">
-      						<ul>
-      							<li class="dropdown-header">by brand</li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li><a href="#">Example</a></li>
-      							<li class="divider"></li>
-      						</ul>
-      					</li>
-      				</ul>
-      			</li>
-      		</ul>
-      	</div>
-      </nav>
+              </ul>
+            </div>
 
-)
+          </div>
+        </nav>
+    )
   }
 }

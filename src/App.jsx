@@ -17,6 +17,7 @@ import Medverkande from './Components/Medverkande/Medverkande';
 import AltNavbar from './Components/AltNavbar/AltNavbar';
 import Kontakt from './Components/Kontakt/Kontakt';
 import Integritet from './Components/Integritet/Integritet';
+import Youtube from './Components/Youtube/Youtube';
 
 class App extends Component {
   render() {
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/medverkande" component={Medverkande} />
           <Route path="/kontakt" component={Kontakt} />
           <Route path="/integritet" component={Integritet} />
+          <Route path="/youtube" component={Youtube} />
 
           <Footer />
         </div>
