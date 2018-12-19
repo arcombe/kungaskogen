@@ -44,12 +44,46 @@ Ingela har illustrerat barnböcker, bokomslag, affischer, träpussel och träspe
         </Row>
         <Row className="show-grid">
           <Col xs={12} sm={3} className="upphov-profile-pic">
-            <Image src="images/upphovs/ingela.jpg" />
           </Col>
           <Col xs={12} sm={8} className="upphov-profile-text">
             <h2>Kompositör</h2>
-            <h3>Jock Lind</h3>
-            <p>bla bla bla bla</p>
+            <h3>Joc Lind</h3>
+            <p>
+              Joc Lind (pseudonym). Arbetar med en mängd olika musikstilar allt från pianostycken, folkvisor, mello, old, barnvisor mm. Tycker att bra musik ska ha en tydlig melodi. En klassisk musikförebild är Chopin.
+
+              Utbildning: Fil kand Lunds Universitet.
+
+              Har arbetat tillsammans med många framstående personer inom marknad barn som Astrid Lindgren, Börje Ahlstedt, Ilon Wikland, Björn Berg, Gunilla Wolde, Lucy Cousins, Sofia (Tove) Jansson (Moomin), Torbjörn Egner, m fl
+
+              Lyssnar gärna på all musik, gärna tokblandning av gammalt
+              och nytt i olika stilar, svenskt som utländskt.
+
+              Det är viktigt att barn tidigt får sjunga, lyssna och dramatisera till bra musik. En bra melodi ska gärna ha ett karaktäristiskt prefix.
+
+              Sångtexterna till "Vännerna i Kungaskogen" är fantastiska och det har varit ett nöje att lyssna och spela fram alla melodier, säger Joc Lind.
+
+              Joc Lind är pappa till många barn.
+            </p>
+          </Col>
+        </Row>
+        <Row className="show-grid">
+
+          <Col xs={12} sm={3} className="upphov-profile-pic">
+            <Image src="images/upphovs/ville.jpg" className="ville"/>
+          </Col>
+
+          <Col xs={12} sm={8} className="upphov-profile-text">
+            <h2>Kompositör</h2>
+            <h3>Vilhelm Ersmark</h3>
+            <p>
+              Vilhelm har gjort några av musikstyckena till Kungaskogen samtidigt som han gjort arrangemang, sjungit och producerat huvuddelen av musiken till Kungaskogen. Kungaskogen har nu kommit in på nytt i Vilhelms värld då ett av hans tre barn sjunger och arbetar med Kungaskogen på förskolan. Ett bra kvitto på nedlagt jobb, säger Vilhelm.
+
+              Utbildning: Civilekonom Lunds Universitet
+
+              Vid sidan av att sjunga visor har Vilhelm haft "årets sommarplåga" för en del år sedan. Sången spelas fortfarande i hela världen.
+
+              Båda kompositörerna är medlemmar i Stim och Skap.
+            </p>
           </Col>
         </Row>
       </Grid>
