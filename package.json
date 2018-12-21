@@ -1,25 +1,18 @@
 {
-  "name": "kungaskogen_v2",
+  "name": "kungaskogen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arcombe.github.io/kungaskogen/",
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "react-scripts": "2.1.1"
-  },
   "dependencies": {
     "express": "^4.16.4",
-    "googleapis": "^36.0.0",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
     "react-youtube": "^7.8.0",
-    "youtube-player": "^5.5.1"
+    "serve": "^10.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
